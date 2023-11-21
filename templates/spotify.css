@@ -1,0 +1,179 @@
+.back_form input[type="submit"]{
+  width: 10%;
+  top:50%;
+  background-color:#4040df;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  padding:15px;
+  min-height:30px;
+  min-width: 120px;
+}
+
+.back_form input[type="submit"]:hover {
+  background-color: #6666e7; /* 호버 시 더 어두운 초록색 */
+}
+
+.moveHtml input[type="submit"]{
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  top:50%;
+  background-color:#4040df;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  padding:15px;
+  min-height:30px;
+  min-width: 120px;
+}
+
+.moveHtml input[type="submit"]:hover{
+  background-color: #6666e7;
+}
+
+.singer {
+  display: inline-block;
+  position: relative;
+  margin-right: 50px;
+}
+
+.singer input[type="text"] {
+  width: 200px; /* 폼의 너비 */
+  padding: 10px; /* 내부 간격 */
+  border: 1px solid #ccc; /* 테두리 색상 */
+  border-radius: 5px; /* 둥근 테두리 */
+  outline: none; /* 포커스 효과 제거 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 약간의 음영 효과 */
+  transition: border-color 0.3s ease-in-out; /* 테두리 색상 전환 효과 */
+}
+
+.singer input[type="text"]:focus {
+  border-color: #4CAF50; /* 포커스 시 테두리 색상 변경 */
+}
+
+.album {
+  display: inline-block;
+  position: relative;
+  margin-right: 50px;
+}
+
+.album input[type="text"] {
+  width: 200px; /* 폼의 너비 */
+  padding: 10px; /* 내부 간격 */
+  border: 1px solid #ccc; /* 테두리 색상 */
+  border-radius: 5px; /* 둥근 테두리 */
+  outline: none; /* 포커스 효과 제거 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 약간의 음영 효과 */
+  transition: border-color 0.3s ease-in-out; /* 테두리 색상 전환 효과 */
+}
+
+.album input[type="text"]:focus {
+  border-color: #4CAF50; /* 포커스 시 테두리 색상 변경 */
+}
+
+
+
+
+.singersearch input[type="submit"] {
+  background-color: #4CAF50; /* 초록색 배경 */
+  color: white; /* 흰색 텍스트 색상 */
+  padding: 10px 20px; /* 텍스트 주위의 간격 */
+  border: none; /* 테두리 없음 */
+  border-radius: 5px; /* 둥근 모서리 */
+  cursor: pointer; /* 호버 시 커서 스타일 */
+  font-size: 16px; /* 텍스트 크기 */
+}
+
+/* 버튼 호버 시 스타일 */
+.singersearch input[type="submit"]:hover {
+  background-color: #45a049; /* 호버 시 더 어두운 초록색 */
+}
+
+
+.albumsearch input[type="submit"] {
+  background-color: #4CAF50; /* 초록색 배경 */
+  color: white; /* 흰색 텍스트 색상 */
+  padding: 10px 20px; /* 텍스트 주위의 간격 */
+  border: none; /* 테두리 없음 */
+  border-radius: 5px; /* 둥근 모서리 */
+  cursor: pointer; /* 호버 시 커서 스타일 */
+  font-size: 16px; /* 텍스트 크기 */
+}
+
+/* 버튼 호버 시 스타일 */
+.albumsearch input[type="submit"]:hover {
+  background-color: #45a049; /* 호버 시 더 어두운 초록색 */
+}
+
+.bpm, .pop, .energy {
+  margin-bottom: 10px;
+}
+
+.bpmnum, .popnum, .energynum {
+  margin-right: 10px;
+  margin-bottom:10px;
+}
+
+.checksubmit, .checkreset {
+  display: inline-block;
+  margin-right : 50px;
+}
+
+.checkbox {
+  display: inline;
+}
+
+
+.pdropdown,
+.jdropdown {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block; /* 추가: 드롭다운 버튼과 옵션을 동일한 줄에 표시 */
+}
+
+
+.dropdown-options {
+  display: none;
+  position: relative;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+.pdropdown:hover .dropdown-options,
+.jdropdown:hover .dropdown-options {
+  display: block;
+}
+
+
+
+
+/* .dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
+
+.dropdown-options a:hover {
+  color: #646464;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.selected-option {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+} */
+
+
