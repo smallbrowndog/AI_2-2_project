@@ -18,8 +18,7 @@ def process_data():
                                                               client_secret='26a67f2bae554ee4a8be8f11a22903cc')
         sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-        rec = sp.recommendations(seed_genres=["dance", "k-pop"],
-                                 market=["KR"], limit=50, min_tempo=[150], max_tempo=[], min_popularity=[70], max_popularity=[70], min_energy=[], max_energy=[])
+        rec = sp.recommendations(seed_genres=["k-pop"],seed_artists=["6HvZYsbFfjnjFrWF950C9d"], seed_tracks=["5sdQOyqq2IDhvmx2lHOpwd"], market=["KR"], limit=50, min_tempo=[100], max_tempo=[200], min_popularity=[70],max_popularity=[100])
 
         # 빈 리스트를 생성하여 트랙 정보를 저장할 변수 생성
         track_info_list = []
